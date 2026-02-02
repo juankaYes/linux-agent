@@ -77,7 +77,7 @@ The agent keeps track of previous messages, allowing:
 ---
 
 ## 🗂 Project Structure
-
+'''text
 src/
 ├── agents/
 │ ├── orchestration_agent.py
@@ -102,7 +102,7 @@ src/
 │ └── config.py
 ├── prompts/
 ├── main.py
-
+'''
 
 ---
 
