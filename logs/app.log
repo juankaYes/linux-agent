@@ -1,0 +1,240 @@
+2026-02-02 18:21:27,139 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:21:27,149 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:21:27,149 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:21:27,151 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:21:27,151 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:21:27,156 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:21:27,157 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:21:27,158 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:21:27,158 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:21:27,162 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:21:27,162 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:21:27,419 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:21:27,419 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:21:27,420 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:21:54,829 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:22:06,415 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:22:10,603 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:22:23,821 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:22:42,564 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:23:01,544 - commands.utils - INFO - Executing command: top -b -n 1
+2026-02-02 18:23:01,777 - commands.utils - INFO - Command executed successfully: top -b -n 1
+2026-02-02 18:24:46,991 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:27:34,291 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:27:34,298 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:27:34,299 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:27:34,300 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:27:34,300 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:27:34,309 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:27:34,309 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:27:34,311 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:27:34,311 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:27:34,316 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:27:34,316 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:27:34,614 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:27:34,614 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:27:34,616 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:27:44,145 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:28:12,229 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:28:12,238 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:28:12,238 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:28:12,240 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:28:12,240 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:28:12,247 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:28:12,247 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:28:12,249 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:28:12,249 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:28:12,252 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:28:12,252 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:28:12,520 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:28:12,520 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:28:12,522 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:28:19,146 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:29:47,652 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:29:47,662 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:29:47,662 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:29:47,664 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:29:47,664 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:29:47,671 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:29:47,671 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:29:47,673 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:29:47,674 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:29:47,678 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:29:47,678 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:29:47,937 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:29:47,937 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:29:47,939 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:29:55,969 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:30:17,046 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:30:48,326 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:30:48,337 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:30:48,337 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:30:48,338 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:30:48,338 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:30:48,344 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:30:48,344 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:30:48,346 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:30:48,346 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:30:48,349 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:30:48,349 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:30:48,632 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:30:48,632 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:30:48,633 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:31:15,635 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:31:16,443 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:31:30,447 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:31:50,808 - commands.utils - INFO - Executing command: top -b -n 1 | grep "Cpu(s)"
+2026-02-02 18:31:51,033 - commands.utils - INFO - Command executed successfully: top -b -n 1 | grep "Cpu(s)"
+2026-02-02 18:31:52,840 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:32:14,349 - commands.utils - INFO - Executing command: iostat -x 1
+2026-02-02 18:37:15,053 - commands.utils - ERROR - Command failed: iostat -x 1
+Error: Command 'iostat -x 1' died with <Signals.SIGINT: 2>.
+2026-02-02 18:37:24,858 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:37:24,866 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:37:24,866 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:37:24,867 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:37:24,867 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:37:24,874 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:37:24,874 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:37:24,877 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:37:24,877 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:37:24,880 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:37:24,880 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:37:25,139 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:37:25,139 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:37:25,141 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:41:31,063 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:41:31,072 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:41:31,072 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:41:31,073 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:41:31,073 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:41:31,079 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:41:31,079 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:41:31,082 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:41:31,082 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:41:31,085 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:41:31,085 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:41:31,338 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:41:31,339 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:41:31,341 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:42:16,382 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:42:20,159 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:42:34,191 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:42:51,293 - commands.utils - INFO - Executing command: top -b -n 1
+2026-02-02 18:42:51,545 - commands.utils - INFO - Command executed successfully: top -b -n 1
+2026-02-02 18:44:44,915 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:49:55,875 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:49:55,885 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:49:55,885 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:49:55,886 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:49:55,887 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:49:55,895 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:49:55,895 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:49:55,897 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:49:55,898 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:49:55,902 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:49:55,902 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:49:56,220 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:49:56,220 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:49:56,222 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:50:23,708 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:50:30,909 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:50:47,079 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:50:56,343 - commands.utils - INFO - Executing command: lscpu
+2026-02-02 18:50:56,356 - commands.utils - INFO - Command executed successfully: lscpu
+2026-02-02 18:51:22,651 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:53:44,672 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:53:44,682 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:53:44,682 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:53:44,683 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:53:44,683 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:53:44,690 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:53:44,690 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:53:44,693 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:53:44,693 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:53:44,696 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:53:44,696 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:53:44,949 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:53:44,949 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:53:44,951 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:54:04,118 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:54:10,905 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:54:25,612 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:54:35,771 - commands.utils - INFO - Executing command: nproc
+2026-02-02 18:54:35,778 - commands.utils - INFO - Command executed successfully: nproc
+2026-02-02 18:54:36,339 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:55:18,028 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:55:24,878 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:55:43,262 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 18:56:11,022 - commands.utils - INFO - Executing command: cat /proc/stat | grep '^cpu ' | awk '{print $5}'
+2026-02-02 18:56:11,029 - commands.utils - INFO - Command executed successfully: cat /proc/stat | grep '^cpu ' | awk '{print $5}'
+2026-02-02 18:59:12,098 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 18:59:12,106 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 18:59:12,107 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 18:59:12,108 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 18:59:12,108 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 18:59:12,115 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 18:59:12,115 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:59:12,117 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 18:59:12,117 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:59:12,120 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 18:59:12,120 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 18:59:12,426 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 18:59:12,426 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 18:59:12,428 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 18:59:23,767 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:59:31,536 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 18:59:47,038 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 19:00:17,228 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:00:17,927 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:00:18,769 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:00:26,793 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:01:02,848 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 19:01:02,857 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 19:01:02,857 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 19:01:02,859 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 19:01:02,859 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 19:01:02,865 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 19:01:02,865 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 19:01:02,867 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 19:01:02,867 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 19:01:02,872 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 19:01:02,872 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 19:01:03,157 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 19:01:03,158 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 19:01:03,161 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 19:01:24,094 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:01:31,723 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:01:46,805 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 19:01:58,680 - commands.utils - INFO - Executing command: lscpu
+2026-02-02 19:01:58,688 - commands.utils - INFO - Command executed successfully: lscpu
+2026-02-02 19:02:25,016 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 19:04:08,396 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:04:16,180 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:05:06,644 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 19:05:31,694 - commands.utils - INFO - Executing command: which mpstat
+2026-02-02 19:05:31,696 - commands.utils - INFO - Command executed successfully: which mpstat
+2026-02-02 19:05:32,411 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 19:12:48,122 - commands.utils - INFO - Executing command: lsb_release -a
+2026-02-02 19:12:48,130 - commands.utils - INFO - Command executed successfully: lsb_release -a
+2026-02-02 19:12:48,131 - commands.utils - INFO - Executing command: uname -r
+2026-02-02 19:12:48,132 - commands.utils - INFO - Command executed successfully: uname -r
+2026-02-02 19:12:48,132 - commands.utils - INFO - Executing command: lscpu | grep 'Model name'
+2026-02-02 19:12:48,139 - commands.utils - INFO - Command executed successfully: lscpu | grep 'Model name'
+2026-02-02 19:12:48,139 - commands.utils - INFO - Executing command: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 19:12:48,141 - commands.utils - INFO - Command executed successfully: cat /proc/meminfo | grep 'MemTotal'
+2026-02-02 19:12:48,141 - commands.utils - INFO - Executing command: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 19:12:48,145 - commands.utils - INFO - Command executed successfully: lsblk -d -o NAME,SIZE,TYPE | grep 'disk'
+2026-02-02 19:12:48,145 - commands.utils - INFO - Executing command: lshw -C display
+2026-02-02 19:12:48,428 - commands.utils - INFO - Command executed successfully: lshw -C display
+2026-02-02 19:12:48,428 - commands.utils - INFO - Executing command: uname -m
+2026-02-02 19:12:48,430 - commands.utils - INFO - Command executed successfully: uname -m
+2026-02-02 19:13:08,331 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:13:14,226 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:13:30,960 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 19:13:41,784 - commands.utils - INFO - Executing command: nproc
+2026-02-02 19:13:41,786 - commands.utils - INFO - Command executed successfully: nproc
+2026-02-02 19:13:42,373 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-02 19:14:42,242 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:15:02,786 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-02 19:15:55,954 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"

@@ -1,0 +1,3 @@
+langchain==1.2.8
+langraph==1.0.7
+langchain-ollama==1.0.1
