@@ -120,5 +120,6 @@ src/
 ## 🚀 Getting Started
 
 ### Install dependencies
+**Ollama** for offline models: https://docs.ollama.com/
 ```bash
 pip install -r requirements.txt
