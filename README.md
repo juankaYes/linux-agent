@@ -77,32 +77,33 @@ The agent keeps track of previous messages, allowing:
 ---
 
 ## 🗂 Project Structure
-'''text
+
+```bash
 src/
 ├── agents/
-│ ├── orchestration_agent.py
-│ ├── prompt_refining_agent.py
-│ └── linux_agent.py
+│   ├── orchestration_agent.py
+│   ├── prompt_refining_agent.py
+│   └── linux_agent.py
 ├── chains/
-│ └── agent_chains.py
+│   └── agent_chains.py
 ├── commands/
-│ ├── info.py
-│ └── utils.py
+│   ├── info.py
+│   └── utils.py
 ├── common/
-│ ├── messages/
-│ │ └── terminal_messages.py
-│ └── system_information.py
+│   ├── messages/
+│   │   └── terminal_messages.py
+│   └── system_information.py
 ├── graph/
-│ └── linux_assistant.py
+│   └── linux_assistant.py
 ├── llm_models/
-│ ├── factory.py
-│ ├── enums.py
-│ └── info.py
+│   ├── factory.py
+│   ├── enums.py
+│   └── info.py
 ├── my_logging/
-│ └── config.py
+│   └── config.py
 ├── prompts/
-├── main.py
-
+└── main.py
+```
 
 ---
 
