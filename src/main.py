@@ -2,7 +2,7 @@ from common.messages.terminal_messages import goodbye
 
 if __name__ == "__main__":
     from graph.linux_assistant import app
-    from graph.linux_assistant import AgentState
+    from states.agents import AgentState
 
     while True:
         user_input = input("Enter your request for the linux system (/bye to exit): ")
