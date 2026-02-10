@@ -13,7 +13,7 @@ class ModelInfo(TypedDict):
     frequency_penalty   : Optional[float]   = Field(0, description="Frequency penalty setting")                 # Adjust frequency penalty to reduce repetition
     presence_penalty    : Optional[float]   = Field(0, description="Presence penalty setting")                  # Adjust presence penalty to encourage new topics
     stop                : Optional[list]    = Field(None, description="Stop sequences for the model")           # Define stop sequences if needed
-    keep_alive          : Optional[str]    = Field(None, description="Keep the model instance alive")          # Keep the model instance alive for reuse
+    keep_alive          : Optional[str]     = Field(None, description="Keep the model instance alive")          # Keep the model instance alive for reuse
 
 class ChatModelInfo(ModelInfo):
     model_name: ChatModels

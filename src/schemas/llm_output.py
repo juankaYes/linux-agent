@@ -24,3 +24,8 @@ class LLMTroubleshootingOutput(BaseModel):
     command: dict[str, str] = Field(description="The commands that have been executed by the agent, with the command as the key and the output as the value")
     next_steps: str = Field(description="The next steps to solve the problem based on the command outputs")
     request: str = Field(description="A request or question to ask the user if more information is needed to solve the problem or suggestion")
+
+class CommandOutput(BaseModel):
+    command     : str = Field(..., description="The command that was executed")
+    result      : str = Field(..., description="The output of the command")
+    is_error    : bool = Field(..., description="Indicates if the command failed")

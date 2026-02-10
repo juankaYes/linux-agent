@@ -1,4 +1,4 @@
-from common.messages.terminal_messages import goodbye
+from system.messages.terminal_messages import goodbye
 
 if __name__ == "__main__":
     from graph.linux_assistant import app

@@ -1,4 +1,5 @@
-from common.system_information import LinuxSystemInfo, HardwareInfo
+from system.hardware_info import HardwareInfo
+from system.system_info import LinuxSystemInfo
 from langchain.tools import tool
 
 @tool
